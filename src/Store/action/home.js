@@ -36,6 +36,19 @@ export function postAPI(props) {
   };
 }
 
+export function patchAPI(body, id) {
+  {
+
+  }
+  return (dispatch) => {
+    console.log("post", body);
+    // dispatch({ type: constant.START });
+    axios
+      .put(`https://jsonplaceholder.typicode.com/posts/`, body, {hesder})
+      .then((response) => console.log(response));
+  };
+}
+
 // export function addsss(a) {
 //   return (dispatch) => {
 //     dispatch({ type: constant.ADDSTART });
