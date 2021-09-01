@@ -1,0 +1,11 @@
+.row{
+    background: red;
+}
+
+.col{
+    background: blue;
+    color: aliceblue;
+    /* display: flex;
+    justify-content: center; */
+    /* text-align: center; */
+}

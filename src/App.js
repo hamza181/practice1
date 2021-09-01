@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+// redux react-redux antd antd-icon @emotion/react @emotion/styled redux-thunk axios
+// add antd css in index.js
+
+import Counter from "./Components/Counter/Counter";
+import Home from "./Components/Home/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Home></Home> */}
+      <Counter></Counter>
     </div>
   );
 }
